@@ -1,0 +1,417 @@
+
+  .fixedtop img, 
+  .fixedtop h5,
+  .fixedtop p,
+  .fixedtop i {
+      color: white;
+  }
+
+  .fixedtop {
+    background-color: #936c6c;
+  }
+
+  .fixedtop img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .fixedtop i {
+      font-size: 1.5rem;   
+  }
+
+  .fixedtop p {
+    margin-left: 0.2rem;
+}
+ 
+  .fixedtop h5 {
+      font-size: 1.7rem;
+  }
+
+  @media (max-width: 670px) {
+    .fixedtop img {
+        display: none;
+    } 
+
+    .fixedtop h5 {
+        font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 490px) {
+    .fixedtop img {
+        display: none;
+    } 
+    .fixedtop p,
+    .fixedtop i {
+        display: none;
+    }   
+  }
+
+  /*-------------------------------------------*/
+
+.learn {
+    color: #936c6c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px white;
+    
+}
+
+.learne span,
+.section8 .english {
+    color: white;
+    text-shadow: 2px 2px #936c6c;
+}
+
+.learne:hover span,
+.section8 .english:hover {
+    color: #936c6c;
+    text-shadow: 2px 2px white;
+}
+
+.learng:hover span,
+.section8 .german {
+    color: #936c6c;
+    text-shadow: 2px 2px white;  
+}
+
+.learne:hover,
+.section8 .german:hover {
+    color: white;
+    text-shadow: 2px 2px #936c6c;
+}
+
+.learng:hover {
+    color: white;
+    text-shadow: 2px 2px #936c6c;
+}
+
+.learng span {
+    color: white;
+    text-shadow: 2px 2px #936c6c;
+}
+
+.image {
+background-image: url('images/online-learning-image.jpg');
+height: 500px;
+width: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+.learnonline h4 {
+margin-top: -19rem;
+}
+
+.onimagebtn .btn {
+    margin-top: -25rem;
+}
+
+.onlineclasses {
+    color: white;
+    font-size: 1.1rem;
+    margin-top: -6rem;
+}
+
+.section1 a {
+    text-decoration: none;
+}
+
+.section1 .btn, 
+.section5btn .btn,
+.section8 .btn,
+.contactbtn .btn {
+    background-color: #936c6c !important;
+    outline: none!important;
+    border: none!important;
+}
+.section1 .btn:hover, 
+.section5btn .btn:hover 
+.section8 .btn:hover,
+.contactbtn .btn {
+    background-color: #8c7373 !important;
+    outline: none!important;
+    border: none!important;
+}
+
+.howwillyuolearn {
+    margin-top: 5rem;
+}
+
+
+@media (max-width: 768px) {
+    .learn {
+        font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 565px) {
+   .learn {
+       padding-right: 10px !important;
+       font-size: 1.5rem;
+   }
+   .learnonline h4 {
+    margin-top: -20rem;
+    }
+    .onimagebtn .btn {
+        font-size: 1rem !important;
+        margin-top: -28rem;
+    }
+    .section3 h3 {
+        margin-top: 4rem;
+        font-size: 1.5rem !important;
+      
+    }
+  }
+
+  @media (max-width: 430px) {
+    .learnonline a {
+        display: block!important;
+        padding-bottom: 2rem;
+    }
+
+    .onlineclasses {
+        color: white;
+        font-size: 1.1rem;
+        margin-top: -12rem;
+  }
+  }
+
+/*==============section 3====================*/
+
+.section3 h3 {
+    margin-top: 4rem;
+    font-size: 2.3rem;
+    color: #8c7373;
+}
+#carouselExampleControls img {
+    height: 300px;
+}
+
+.carousel {
+    margin-bottom: 5rem;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-next-icon {
+    background-color:#8c7373;
+}
+
+.carousel-caption h3,
+ .carousel-caption p,
+ .stories h2 {
+    color: #936c6c; 
+}
+
+.carousel-caption {
+    margin-bottom: 4rem;
+}
+
+/*==============section 4====================*/
+
+.section4 {
+    margin-bottom: 5rem;
+}
+
+.section4 ul li i {
+    color: #a65959; 
+}
+
+.section4 h4 {
+    color: #a65959;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.section4 li {
+list-style: none;
+padding-bottom: 0.8rem;
+}
+
+.section4 .devider {
+    border-right: 2px solid #a65959;
+    padding-right: 6rem;
+}
+
+@media (max-width: 992px ) {
+    .section4 .devider {
+    border-right: none;
+    padding-right: 0;
+}
+
+#contact-form {
+margin-left: 20%;
+margin-right: 10%;
+}
+.contactbtn {
+    margin-left: 20%;
+    margin-right: 10%;
+}
+}
+
+/*section 5----------------------*/
+@media (max-width: 770px) {
+    .ulcenterit {
+        margin-left: 25%;
+    }
+    .section5btn .btn {
+        margin-left: 30% !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .ulcenterit {
+        margin-left: 10%;
+    }
+    .section5btn .btn {
+        margin-left: 10% !important;
+    }
+}
+.section5 {
+    margin-bottom: 5rem;
+}
+
+.section5btn .btn {
+    margin-left: 4rem;
+}
+
+
+.jumbotron2 {
+    background-color: #9e9499;
+}
+
+/*Section 6=======================*/
+@media (max-width: 770px) {
+    .startnowul {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 770px) {
+    .startnowul {
+        margin-left: 20%;
+    }
+}
+
+.startnow {
+    margin-top: 4rem;
+}
+
+.startnow ul li {
+    font-size: 1.5rem;
+}
+
+.startnow h2, 
+.section5 h4, 
+.section2 h4,
+.section7 h2 {
+    color: #a88a99;
+}
+
+.startnow ul li,
+.section5 ul li,
+.section4 ul li,
+.section2 p {
+    color: #9e9499; 
+}
+
+/* section 7========================*/
+
+.section7 h2 {
+    margin-top: 3rem;
+}
+
+.section7 h2 em {
+    color: #993366;
+}
+
+.list-group img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.list-group-item {
+    background-color: #d1c7c7!important;
+    border-color: #e3b5b5!important;  
+}
+
+.tabcontentbox {
+    border: 1px solid #e3b5b5;
+}
+
+.list-group-item:focus,
+.list-group-item:active, 
+.list-group-item:hover {
+    background-color: #e8b0b0!important;
+    outline: none!important;
+    box-shadow: none !important;
+    border-color: #e3b5b5!important;
+}
+
+.list-group-item-action {
+    background-color: #936c6c;
+}
+
+.tab-pane {
+    margin-top: 3rem;
+}
+
+.listgroupcontainer {
+    margin-bottom: 8rem;
+}
+
+.ourmethods {
+    background-color: #a88a99;
+}
+
+.othermethods {
+    background-color: #9e9499;
+}
+
+.reasons {
+    background-color: #f5f5f0;
+}
+
+.table1 {
+    margin-bottom: 5rem;
+}
+
+/*Section 8-------------------------*/
+
+.section8 {
+    background-color: #d4c4c4;
+    margin-bottom: 2rem;
+}
+
+.startlearning {
+    font-weight: bold;
+}
+
+.findout {
+    color: #936c6c;
+}
+
+#contact-form input:active, 
+#contact-form input:focus,
+.md-form textarea:active,
+.md-form textarea:focus {
+    background-color: #e8b0b0!important;
+    outline: none!important;
+    box-shadow: none !important;
+    border-color: #e3b5b5!important; 
+}
+
+#contact-form label {
+    color: #8c7373;
+}
+
+footer {
+    margin-top: 5rem;
+    color: #8c7373;
+}
